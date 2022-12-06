@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jet Heroes</string>
+    <string name="scroll_to_top">Gulir ke Atas</string>
+    <string name="search_hero">Cari pahlawanmu</string>
+</resources>
