@@ -1,4 +1,4 @@
-package com.mikirinkode.jetheroes
+package com.mikirinkode.jetheroes.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -22,22 +22,9 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+                    JetHeroesApp()
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
-
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    JetHeroesTheme {
-        Greeting("Android")
     }
 }
